@@ -1,6 +1,6 @@
 package percabangan;
 
-public class Coba1 {
+public class Coba2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,12 +10,12 @@ public class Coba1 {
 		if (a==0)
 //			statemen jika kondisi 1 true
 		   			System.out.println("Nilai a = 0");
-//		jika kondisi 1 false
-		else
-//			statemen jika kondisi 1 False
+//		jika kondisi 1 falsec cek dengan kondisi 2 dibawah ini
+		else if(a==1)
+//			statemen jika kondisi 2 True
 		   			System.out.println("Nilai a = 1");
 		
-//		outputnya adalah "Nilai a = 1" karena nilai a != 0  (sesuai dengan kondisi 1) / FALSE
+//		outputnya adalah "Nilai a = 1" karena nilai a == 1  (sesuai dengan kondisi 2) / TRUE
 	}
 
 }
